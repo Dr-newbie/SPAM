@@ -12,6 +12,12 @@
 
 **SPAM** is a multimodal framework for **predicting spatially resolved gene expression** from:
 
+
+<p align='center'>
+<img width="70% alt="Image" src="https://github.com/user-attachments/assets/4dcfe4a0-3a80-4164-9298-e2c92d71dd97" />  
+</p>
+
+
 - Histology image features (H&E patches, foundation models)
 - Spatial coordinates (cell / spot locations)
 - Gene expression profiles
@@ -152,7 +158,7 @@ Adapt these paths to your own preprocessing pipeline.
       3. Fuses attended embeddings with cross attention module
       4. Predicts gene expression with a ZINB decoder head
 
-3. 🔍 Inference (Gene Expression Prediction)
+3. 🔍 Inference (Gene Expression Prediction with biological context)
 * After finetuning, run inference to predict gene expression on new data.
    ```bash
    python inference.py \
