@@ -57,13 +57,11 @@ SPAM/
 ```
 
 --- 
+## 3. Environment & Installation 💻
 
-3. Environment & Installation 💻
-
-bash
+```bash
 git clone https://github.com/Dr-newbie/SPAM.git
 cd SPAM
-
 
 # (recommended) create conda env
 conda create -n spam_env python=3.10 -y
@@ -75,4 +73,3 @@ pip install -r requirements.txt   # if you have it
 # pip install torch torchvision torchaudio
 # pip install scanpy anndata numpy pandas matplotlib tqdm
 # pip install torch-geometric  # (follow official install instruction)
-
