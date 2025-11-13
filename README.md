@@ -27,7 +27,7 @@ The training pipeline consists of:
    - Merges attended features and reconstructs gene expression with a **ZINB decoder**
 
 3. **Inference**  
-   - Uses the finetuned model to predict gene expression for new sections  
+   - Uses the finetuned model with biological context to predict gene expression for new sections  
    - Saves results (predicted expression, evaluation, plots, etc.)
 
 ---
