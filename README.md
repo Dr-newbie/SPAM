@@ -54,3 +54,25 @@ SPAM/
 ├── main.py          # Entry point for pretraining & finetuning
 ├── inference.py     # Entry point for inference (prediction)
 └── README.md
+```
+
+--- 
+
+3. Environment & Installation 💻
+
+bash
+git clone https://github.com/Dr-newbie/SPAM.git
+cd SPAM
+
+
+# (recommended) create conda env
+conda create -n spam_env python=3.10 -y
+conda activate spam_env
+
+# install dependencies
+pip install -r requirements.txt   # if you have it
+# or manually:
+# pip install torch torchvision torchaudio
+# pip install scanpy anndata numpy pandas matplotlib tqdm
+# pip install torch-geometric  # (follow official install instruction)
+
