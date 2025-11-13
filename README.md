@@ -8,7 +8,7 @@
 
 ---
 
-## 1. Overview 🧬
+## � Overview �
 
 **SPAM** is a multimodal framework for **predicting spatially resolved gene expression** from:
 
@@ -32,7 +32,7 @@ The training pipeline consists of:
 
 ---
 
-## 2. Repository Structure 📁
+## � Repository Structure 
 
 (High-level description; file names may be updated.)
 
@@ -57,7 +57,7 @@ SPAM/
 ```
 
 --- 
-## 3. Environment & Installation 💻
+## 💻 Environment & Installation 💻
 
 ```bash
 git clone https://github.com/Dr-newbie/SPAM.git
@@ -69,7 +69,10 @@ conda activate spam_env
 
 # install dependencies
 pip install -r requirements.txt   # if you have it
-# or manually:
-# pip install torch torchvision torchaudio
-# pip install scanpy anndata numpy pandas matplotlib tqdm
-# pip install torch-geometric  # (follow official install instruction)
+
+# Because we use Blackwell with cuda 12.9, you must install pytorch with below command (or install suitable pytorch with your settings)
+pip3 install --pre torch torchvision --index-url https://download.pytorch.org/whl/nightly/cu128
+```
+--- 
+
+
