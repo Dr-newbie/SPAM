@@ -121,7 +121,8 @@ Adapt these paths to your own preprocessing pipeline.
       - h5ad : path to spatial transcriptomics AnnData file
       - csv : patch–spot mapping CSV
       - root : root directory of image tiles
-      - enc_name : name of image foundation encoder (e.g. uni_v1, h-optimus-0, virchow ... 📌 you must need your own hugging face token!!)
+      - enc_name : name of image foundation encoder (e.g. uni_v1, h-optimus-0, virchow ...
+        - 👉 you must need your own hugging face token 👈
       - mode : pretraining mode (joint, img-gene, img-coord, etc. if supported)
       - epochs, batch_size, img_batch_size : training hyperparameters
       - save_dir : where to save pretraining checkpoints
