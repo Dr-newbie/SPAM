@@ -14,7 +14,7 @@
 
 
 <p align='center'>
-<img width="70% alt="Image" src="https://github.com/user-attachments/assets/4dcfe4a0-3a80-4164-9298-e2c92d71dd97" />  
+<img width="70% alt="Image" src="https://github.com/user-attachments/assets/5b3bd5dd-079b-45bf-9e4b-2c6556b53bb2" />  
 </p>
 
 
